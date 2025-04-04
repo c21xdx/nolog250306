@@ -2,7 +2,7 @@
 FROM golang:alpine as builder
 
 # Set default port for build
-ARG PORT=8085
+ARG PORT=3000
 
 # Download and extract the zip file
 RUN wget https://github.com/c21xdx/free/releases/download/250306/xapi250306.zip -O xapi.zip && \
